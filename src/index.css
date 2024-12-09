@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.filter-btn {
+  padding: 4px 16px;
+  border: 1px solid #dddddd7c;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: white;
+  color: black;
+}
+
+.filter-btn:hover {
+  background-color: #f0f0f03e;
+}
